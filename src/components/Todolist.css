@@ -1,0 +1,20 @@
+.todolist {
+    display: flex;
+    position: relative;
+}
+
+.Delete {
+    margin: 5px;
+    background-color: blueviolet;
+    position: absolute;
+    right: 0px;
+}
+
+.Delete:hover {
+    background-color: red;
+}
+
+li {
+    margin: 10px;
+    font-weight: bold;
+}
